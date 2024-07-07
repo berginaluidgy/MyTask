@@ -1,0 +1,26 @@
+/* Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .stats-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .stat-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .chart-container {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }

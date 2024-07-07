@@ -1,0 +1,150 @@
+
+#bigdivcard {
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#bigdivcard>div {
+    width: 100%;
+    margin: 2px;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#choosetextdiv>p {
+    font-weight: bold;
+}
+
+#firstcardds>div {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#secondcardds>div {
+    font-size: 12px;
+}
+
+#buttoncardsend {
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+#buttoncardsend>div {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#buttoncardsend>div>p {
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6b6b, #f0e68c, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#carddecision4 {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    background: linear-gradient(0deg, rgba(34,195,113,1) 0%, rgba(0,123,255,0.4598214285714286) 100%);
+    border: solid 1px white;
+    padding: 20px; /* Ajouter du padding à la carte */
+    margin: 10px; /* Ajouter de la marge autour de la carte */
+    border-radius: 15px; /* Ajouter des coins arrondis pour une meilleure apparence */
+}
+
+.faded{
+    opacity: 0.5; /* Opacité réduite pour l'effet de fade */
+    transition: opacity 0.3s ease; /* Animation de transition */
+}
+
+.selected {
+    opacity: 1; /* Opacité complète lorsque sélectionné */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Réduire les marges pour les petits écrans */
+    }
+
+    #bigdivcard {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #bigdivcard>div {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    #buttoncardsend {
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        justify-content: center;
+    }
+    
+    #buttoncardsend>div {
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 25px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #buttoncardsend>div>p {
+        font-weight: bold;
+        background: linear-gradient(45deg, #ff6b6b, #f0e68c, #1e90ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px; /* Réduire encore les marges pour les très petits écrans */
+    }
+
+    #bigdivcard {
+        padding: 5px;
+    }
+
+    #bigdivcard>div {
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    #buttoncardsend {
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        justify-content: center;
+    }
+    
+    #buttoncardsend>div {
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 25px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #buttoncardsend>div>p {
+        font-weight: bold;
+        background: linear-gradient(45deg, #ff6b6b, #f0e68c, #1e90ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}

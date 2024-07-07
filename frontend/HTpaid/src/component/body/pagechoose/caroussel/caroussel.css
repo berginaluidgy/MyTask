@@ -1,0 +1,47 @@
+
+
+#bordturn{
+    background: linear-gradient(45deg, #ff6b6b, #f0e68c, #1e90ff);
+    position: relative;
+    top: 75px;
+    padding: 2px;
+    border-radius: 15px;
+}
+#bigcard,#whenYoutube,#whenyumonetise,#giveidentication{
+    /* background-color: whitesmoke; */
+    top: 75px;
+    padding: 2%;
+    border-radius: 15px;
+}
+#bordturn>div>form{
+    display: flex;
+    justify-content: space-around;
+}
+#bordturn>div>form>div{
+    border:solid 0.3px black;
+    padding: 2%;
+    border-radius:20px ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: 600;
+}
+#bordturn>div>form>div>input{
+    font-size: 17px;
+opacity: 0.4;
+display: none;
+}
+#continuer{
+    display: flex;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    justify-content: flex-end;
+    /* background-color:black; */
+}
+#continuer>p{
+    background-color: black;
+    color: darkorange;
+    padding: 2%;
+    border-radius: 15px;
+    font-weight: 600;
+}

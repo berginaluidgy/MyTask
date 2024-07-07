@@ -1,0 +1,51 @@
+
+#bigprentsub{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+
+    position: relative;
+    top:70px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top:2% ;
+    padding-bottom:2% ;
+    border-radius: 15px;
+
+    box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#imp-dif{
+    display: flex;
+    justify-content: space-between;
+}
+#Gosub{
+
+    background-image: linear-gradient(to right, #0099ff, #0066cc, #0099ff);
+    background-size: 400% 100%;
+    animation: vague 3s ease infinite;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    transition: background-position 0.5s ease;
+  }
+  
+  .bouton-vague:hover {
+    background-position: 100% 0%;
+  }
+  
+  @keyframes vague {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
